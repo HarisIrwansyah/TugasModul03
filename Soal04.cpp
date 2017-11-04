@@ -6,4 +6,10 @@ int main () {
 	
 	cout << "Silahkan Masukkan Bilangannya	: "; cin >> B ;
 
+	if (B>0){
+		system("cls");
+		cout << ""<<endl;
+		cout << "Wah...Bilangan yang Anda Masukkan Adalah Positif ( "<<B<<" )!!"<<endl;
+	}
+
 }
